@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C++ Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/simulation_debug", // 调试版本的可执行文件路径
+            "args": [], // 程序参数
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}", // 工作目录
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb", // 调试器模式
+            "miDebuggerPath": "gdb", // 调试器路径（根据你的环境可能需要调整）
+            "preLaunchTask": "build:debug", // 启动调试前运行的任务
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Release C++ Program",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/simulation_release", // 发布版本的可执行文件路径
+            "args": [], // 程序参数
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}", // 工作目录
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb", // 调试器模式
+            "miDebuggerPath": "gdb", // 调试器路径（根据你的环境可能需要调整）
+            "preLaunchTask": "build:release", // 启动调试前运行的任务
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{7a3aeb12-3ac6-4d4e-a034-721ef2ce1363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\siftkeygenerator">
+      <UniqueIdentifier>{22aea25d-db68-4331-babc-c6390f7db539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\tools">
+      <UniqueIdentifier>{abc2ae5b-ea58-4602-b172-6f74008e43c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src\port">
+      <UniqueIdentifier>{ebac7343-c4ef-4234-80a4-fc58cd125477}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\siftkeygenerator\SiftKeyGenerator.hpp">
+      <Filter>源文件\src\siftkeygenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\CheckValueExtractor.hpp">
+      <Filter>源文件\src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\CRC.hpp">
+      <Filter>源文件\src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\Encoder.hpp">
+      <Filter>源文件\src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\FrozenSiteGenerator.hpp">
+      <Filter>源文件\src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\Decoder.hpp">
+      <Filter>源文件\src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\port\IR.hpp">
+      <Filter>源文件\src\port</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\Display.hpp">
+      <Filter>源文件\src\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\port\IR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
